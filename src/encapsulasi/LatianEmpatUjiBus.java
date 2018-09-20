@@ -14,14 +14,14 @@ public class LatianEmpatUjiBus {
     LatianEmpatBus Bus = new LatianEmpatBus(5);
     Bus.getpenumpang(17);
     Bus.getpenumpang(24);
-    Bus.cetakpenunmpang();
+    Bus.cetakpenumpang();
     Bus.addpenumpang(2);
-    Bus.cetakpenunmpang();
+    Bus.cetakpenumpang();
     Bus.addpenumpang(1);
-    Bus.cetakpenunmpang();
+    Bus.cetakpenumpang();
     Bus.addpenumpang(2);
-    Bus.cetakpenunmpang();
+    Bus.cetakpenumpang();
     Bus.addpenumpang(2);
-    Bus.cetakpenunmpang();
-    }
+    Bus.cetakpenumpang();
+}
 }

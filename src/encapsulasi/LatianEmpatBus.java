@@ -20,29 +20,28 @@ public class LatianEmpatBus {
     public void addpenumpang(int penumpang){
         int temp;
         temp = this.penumpang+penumpang;
-        if (temp>maxpenumpang)
-        {
+        if(temp>maxpenumpang){
             System.out.println("Penumpang melebihi kuota");
         }
         else
         {
-            this.penumpang=temp;
+            this.penumpang = temp;
         }
     }
-    public void getpenumpang(int password){
-        if (password==24)
-        {
-            System.out.println("Password benar");
-        }
-        else
-        {
-            System.out.println("Password salah");
-        }
-    }
-    public void cetakpenunmpang()
+    
+public void getpenumpang(int password){
+    if(password==24)
     {
-        System.out.println("Penumpang bus sekarng = " + penumpang);
-        System.out.println("Maksimum penumpang yang seharusnya adalah = " + maxpenumpang);
+        System.out.println("Password benar");
+    }
+    else
+    {
+        System.out.println("Password salah");
     }
 }
-
+public void cetakpenumpang()
+{
+    System.out.println("Penumpang bus sekarng = " + penumpang);
+    System.out.println("Maksimum penumpang yang seharusnya adalah = " + maxpenumpang);
+}
+}
